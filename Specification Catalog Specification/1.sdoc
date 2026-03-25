@@ -1,0 +1,320 @@
+[DOCUMENT]
+TITLE: Catalog Specification
+UID: 532dae219592ec939c858df6868d53b6
+VERSION: null
+
+[GRAMMAR]
+ELEMENTS:
+- TAG: WORK_ITEM
+  PROPERTIES:
+    IS_COMPOSITE: False
+    PREFIX: None
+    VIEW_STYLE: Narrative
+  FIELDS:
+  - TITLE: UID
+    TYPE: String
+    REQUIRED: True
+  - TITLE: POLARION_ID
+    TYPE: String
+    REQUIRED: True
+  - TITLE: STATUS
+    TYPE: String
+    REQUIRED: False
+  - TITLE: TITLE
+    TYPE: String
+    REQUIRED: True
+  - TITLE: DESCRIPTION
+    TYPE: String
+    REQUIRED: False
+  - TITLE: COMMENT
+    TYPE: String
+    REQUIRED: False
+  RELATIONS:
+  - TYPE: Parent
+- TAG: TEST_CASE
+  PROPERTIES:
+    IS_COMPOSITE: False
+    PREFIX: None
+    VIEW_STYLE: Narrative
+  FIELDS:
+  - TITLE: UID
+    TYPE: String
+    REQUIRED: True
+  - TITLE: POLARION_ID
+    TYPE: String
+    REQUIRED: True
+  - TITLE: STATUS
+    TYPE: String
+    REQUIRED: False
+  - TITLE: TITLE
+    TYPE: String
+    REQUIRED: True
+  - TITLE: DESCRIPTION
+    TYPE: String
+    REQUIRED: False
+  - TITLE: COMMENT
+    TYPE: String
+    REQUIRED: False
+  RELATIONS:
+  - TYPE: Parent
+
+[[SECTION]]
+UID: EL-183
+TITLE: Introduction
+
+[[SECTION]]
+UID: EL-184
+TITLE: Purpose
+
+[TEXT]
+STATEMENT: >>>
+This document describes couple of requirements related to the application interface portal.
+
+<<<
+
+[[/SECTION]]
+
+[[SECTION]]
+UID: EL-185
+TITLE: References
+
+[TEXT]
+STATEMENT: >>>
+Specifications:
+
+- [LINK: f534bf6955ea46e7f18be344ac667] 
+
+
+<<<
+
+[[/SECTION]]
+
+[[/SECTION]]
+
+[[SECTION]]
+UID: EL-144
+TITLE: Requirements
+
+[[SECTION]]
+UID: EL-145
+TITLE: User name and Password validation
+
+[WORK_ITEM]
+UID: EL-147_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-147
+STATUS: Verified
+TITLE: Password must be validated when the user wants to change it
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+
+[WORK_ITEM]
+UID: EL-149_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-149
+STATUS: Verified
+TITLE: Password must differ from the user name
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-147_532dae219592ec939c858df6868d53b6
+
+[WORK_ITEM]
+UID: EL-148_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-148
+STATUS: Verified
+TITLE: Password must contain at least one number
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-147_532dae219592ec939c858df6868d53b6
+
+[WORK_ITEM]
+UID: EL-150_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-150
+STATUS: Verified
+TITLE: Password must contain at least 8 characters
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-147_532dae219592ec939c858df6868d53b6
+
+[WORK_ITEM]
+UID: EL-101_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-101
+STATUS: Verified
+TITLE: User name must be validated when a new user account is created
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+
+[WORK_ITEM]
+UID: EL-146_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-146
+STATUS: Verified
+TITLE: User name may not contain spaces
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-101_532dae219592ec939c858df6868d53b6
+
+[WORK_ITEM]
+UID: EL-152_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-152
+STATUS: Verified
+TITLE: User name must be longer than 3 characters
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-101_532dae219592ec939c858df6868d53b6
+
+[WORK_ITEM]
+UID: EL-151_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-151
+STATUS: Verified
+TITLE: User name must contain at least one number
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+RELATIONS:
+- TYPE: Parent
+  VALUE: EL-101_532dae219592ec939c858df6868d53b6
+
+[[/SECTION]]
+
+[[SECTION]]
+UID: EL-153
+TITLE: Login Screen
+
+[WORK_ITEM]
+UID: EL-156_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-156
+STATUS: Approved
+TITLE: User must be informed on the login screen when Caps Lock is turned on
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+
+[WORK_ITEM]
+UID: EL-157_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-157
+STATUS: Rejected
+TITLE: User may not be told if the password or user name is wrong
+
+[[/SECTION]]
+
+[[SECTION]]
+UID: EL-158
+TITLE: Performance Requirements
+
+[WORK_ITEM]
+UID: EL-159_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-159
+STATUS: Reviewed
+TITLE: System should meet the following acceptance criteria
+DESCRIPTION: >>>
+
+.. list-table::
+    :widths: 1 1
+    :header-rows: 1
+
+    * - Use Case
+      - Acceptable Response Time
+    * - Open Application Portal
+      - 2 sec
+    * - Render Search Result
+      - 1 sec
+    * - Open Book Detail
+      - 0.5 sec
+    * - Open Author Detail
+      - 0.5 sec
+
+<<<
+COMMENT: >>>
+Item was e-signed
+
+Approval verdict:
+Approved
+
+<<<
+
+[[/SECTION]]
+
+[[SECTION]]
+UID: EL-155
+TITLE: Browser Compatibility
+
+[WORK_ITEM]
+UID: EL-160_532dae219592ec939c858df6868d53b6
+POLARION_ID: EL-160
+STATUS: Reviewed
+TITLE: System must support all following web browsers
+DESCRIPTION: >>>
+
+.. list-table::
+    :widths: 1 1
+    :header-rows: 1
+
+    * - Browser
+      - Support Level
+    * - IE 10
+      - Full Support
+    * - IE 9
+      - Full Support
+    * - IE 8
+      - Layout issues are acceptable
+    * - Firefox 24+
+      - Full Support
+    * - Chrome 32+
+      - Full Support
+
+<<<
+
+[[/SECTION]]
+
+[[/SECTION]]
