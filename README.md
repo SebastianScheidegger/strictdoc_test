@@ -1,4 +1,4 @@
 # This is a test project
 
 ## Viewing Strictdoc html content
-Strictdoc html content can be viewed at [index.html](https://rawcdn.githack.com/SebastianScheidegger/strictdoc_test/index.html)
+Strictdoc html content can be viewed at [index.html](https://raw.githack.com/SebastianScheidegger/strictdoc_test/main/index.html)
