@@ -1,7 +1,0 @@
-<div class="document">
-<p>This document is configured to showcase the
-PDF Export Watermark
-feature. After selecting
-Operations &gt; Export to PDF,
-each page is watermarked with an image. Rules for document watermarks can also be specified via a plugin. This plugin lets users force watermarks based on a custom field value like &quot;Restricted documents&quot;.</p>
-</div>

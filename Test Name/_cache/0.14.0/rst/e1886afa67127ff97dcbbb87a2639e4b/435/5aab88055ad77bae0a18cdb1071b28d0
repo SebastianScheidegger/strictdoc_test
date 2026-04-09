@@ -1,3 +1,0 @@
-<div class="document">
-<p>If there are performance requirements for the product under various circumstances, state them here and explain their rationale.This helps developers understand the intended performance targets and make design choices accordingly. Specify the timing relationships for real time systems. Make these requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.</p>
-</div>

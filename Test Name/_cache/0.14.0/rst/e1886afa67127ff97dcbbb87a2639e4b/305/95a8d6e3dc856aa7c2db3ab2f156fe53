@@ -1,9 +1,0 @@
-<div class="document">
-<p>When viewing a book's details, users also want to get information about the author or authors. The details should include:</p>
-<ul class="simple">
-<li>Full name</li>
-<li>Date of birth</li>
-<li>Date of death (If deceased)</li>
-<li>A list of other books written by them. (If more than 5, the 6th entry&nbsp;can be a link to a complete bibliography page.)</li>
-</ul>
-</div>

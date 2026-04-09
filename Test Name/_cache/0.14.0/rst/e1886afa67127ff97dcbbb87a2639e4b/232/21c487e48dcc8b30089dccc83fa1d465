@@ -1,7 +1,0 @@
-<div class="document">
-<p>The system should provide a way to return a list of the&nbsp;20 most frequently borrowed eBooks.</p>
-<ul class="simple">
-<li>The actual number should be configurable by an administrator.</li>
-<li>The UI should provide a selectable list of values: 10, 20, 25, 50, 100</li>
-</ul>
-</div>
