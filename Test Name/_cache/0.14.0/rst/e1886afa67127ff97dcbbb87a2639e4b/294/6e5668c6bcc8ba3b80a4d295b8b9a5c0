@@ -1,0 +1,30 @@
+<div class="document">
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Browser</th>
+<th class="head">Support Level</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>IE 10</td>
+<td>Full Support</td>
+</tr>
+<tr><td>IE 9</td>
+<td>Full Support</td>
+</tr>
+<tr><td>IE 8</td>
+<td>Layout issues are acceptable</td>
+</tr>
+<tr><td>Firefox 24+</td>
+<td>Full Support</td>
+</tr>
+<tr><td>Chrome 32+</td>
+<td>Full Support</td>
+</tr>
+</tbody>
+</table>
+</div>

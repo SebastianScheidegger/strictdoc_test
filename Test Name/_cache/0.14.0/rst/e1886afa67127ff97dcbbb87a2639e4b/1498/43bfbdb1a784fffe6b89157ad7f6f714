@@ -1,0 +1,54 @@
+<div class="document">
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">TERM</th>
+<th class="head">DEFINITION</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Cart</td>
+<td>i.e. “Shopping Cart” – A collection of one or more eBooks that a patron has marked for purchase during the current session.</td>
+</tr>
+<tr><td>Catalog</td>
+<td>The database of eBooks available for loan and possibly for sale.</td>
+</tr>
+<tr><td>Check Out</td>
+<td>The act of “borrowing” an eBook from the library. The term is not used in reference to the process of paying for a purchased eBook. (See Purchase.)</td>
+</tr>
+<tr><td>Check In</td>
+<td>The act of “returning” a previously “borrowed” (checked out) eBook.</td>
+</tr>
+<tr><td>DRM</td>
+<td>Digital Rights Management</td>
+</tr>
+<tr><td>eBook</td>
+<td>An electronic book or other publication lent or sold by the E-Library system.</td>
+</tr>
+<tr><td>ISBN</td>
+<td>International Standard Book Number</td>
+</tr>
+<tr><td>LC</td>
+<td>Library of Congress</td>
+</tr>
+<tr><td>Loan</td>
+<td>See Lend.</td>
+</tr>
+<tr><td>Lend</td>
+<td>The process of flagging an eBook so the appropriate DRM understands that one of the allowable number of “copies” has been allocated to a patron for the allowable lending period.</td>
+</tr>
+<tr><td>Patron</td>
+<td>A user of the E-Library portal.</td>
+</tr>
+<tr><td>Purchase</td>
+<td>The process by which library patrons purchase a DRM license for a personal copy of an eBook.(Also refers to the action of a user navigating through the process of purchasing the eBooks listed in their Cart.)</td>
+</tr>
+<tr><td>Store</td>
+<td>An area of the portal that lists a subset of the library’s eBooks.(eBooks that users can purchase a personal copy license for.)</td>
+</tr>
+</tbody>
+</table>
+</div>

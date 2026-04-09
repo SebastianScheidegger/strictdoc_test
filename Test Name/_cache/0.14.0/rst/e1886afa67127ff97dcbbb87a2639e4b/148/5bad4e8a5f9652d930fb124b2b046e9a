@@ -1,0 +1,4 @@
+<div class="document">
+<p>Advanced Search
+should provide an easy way to construct complex search queries based on multiple fields with different logic (e.g. AND, OR, NOT).</p>
+</div>

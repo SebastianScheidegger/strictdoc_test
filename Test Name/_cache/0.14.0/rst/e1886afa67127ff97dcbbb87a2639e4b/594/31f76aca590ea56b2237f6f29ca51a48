@@ -1,0 +1,28 @@
+<div class="document">
+<p>The system must provide for the following types of user accounts:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">ACCOUNT TYPE</th>
+<th class="head">PERMISSIONS</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Administrator</td>
+<td>Can access any component or area of the system including the accounts of other users.</td>
+</tr>
+<tr><td>Librarian</td>
+<td>Can access the catalog management features of the system.</td>
+</tr>
+<tr><td>Patron</td>
+<td>Can access the general library features, including browsing, searching, check out, check in, reserve, and purchase.</td>
+</tr>
+<tr><td>Student</td>
+<td>Same as a Patron, except students can not access Purchase features.</td>
+</tr>
+</tbody>
+</table>
+</div>
