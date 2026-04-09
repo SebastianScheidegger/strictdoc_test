@@ -1,0 +1,189 @@
+// map of the project for the stable_uri forwarder
+const projectMap = {
+ "input/0.html": [
+
+
+  {"UID":"f534bf6955ea46e7f18be344ac667","_LINK":"f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-124","_LINK":"EL-124" },
+
+  {"_LINK":"958896ca718b42bf9441d7c4b900bf29" },
+
+  {"UID":"EL-5","_LINK":"EL-5" },
+
+  {"_LINK":"518f41160dd84daf8a498d3d1322c33c" },
+
+  {"UID":"EL-125","_LINK":"EL-125" },
+
+  {"_LINK":"176d34fe6a90461684e988d2a862a53b" },
+
+  {"UID":"EL-70","_LINK":"EL-70" },
+
+  {"_LINK":"5cf9fb798ca643159b49e197b93ebbbc" },
+
+  {"UID":"EL-6","_LINK":"EL-6" },
+
+  {"_LINK":"61c4157e4d12423e9e8d4b11998d4868" },
+
+  {"UID":"EL-7","_LINK":"EL-7" },
+
+  {"_LINK":"47d0ddd2efd341dbb3c5b7b874a4401b" },
+
+  {"UID":"EL-112","_LINK":"EL-112" },
+
+  {"UID":"EL-110","_LINK":"EL-110" },
+
+  {"UID":"EL-198_f534bf6955ea46e7f18be344ac667","_LINK":"EL-198_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-107_f534bf6955ea46e7f18be344ac667","_LINK":"EL-107_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-191_f534bf6955ea46e7f18be344ac667","_LINK":"EL-191_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-138_f534bf6955ea46e7f18be344ac667","_LINK":"EL-138_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-105_f534bf6955ea46e7f18be344ac667","_LINK":"EL-105_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-139_f534bf6955ea46e7f18be344ac667","_LINK":"EL-139_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-136_f534bf6955ea46e7f18be344ac667","_LINK":"EL-136_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-137_f534bf6955ea46e7f18be344ac667","_LINK":"EL-137_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-140_f534bf6955ea46e7f18be344ac667","_LINK":"EL-140_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-113","_LINK":"EL-113" },
+
+  {"UID":"EL-199_f534bf6955ea46e7f18be344ac667","_LINK":"EL-199_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-118_f534bf6955ea46e7f18be344ac667","_LINK":"EL-118_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-116_f534bf6955ea46e7f18be344ac667","_LINK":"EL-116_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-117_f534bf6955ea46e7f18be344ac667","_LINK":"EL-117_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-130_f534bf6955ea46e7f18be344ac667","_LINK":"EL-130_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-131_f534bf6955ea46e7f18be344ac667","_LINK":"EL-131_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-114","_LINK":"EL-114" },
+
+  {"UID":"EL-200_f534bf6955ea46e7f18be344ac667","_LINK":"EL-200_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-119_f534bf6955ea46e7f18be344ac667","_LINK":"EL-119_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-121_f534bf6955ea46e7f18be344ac667","_LINK":"EL-121_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-120_f534bf6955ea46e7f18be344ac667","_LINK":"EL-120_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-111","_LINK":"EL-111" },
+
+  {"UID":"EL-201_f534bf6955ea46e7f18be344ac667","_LINK":"EL-201_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-108_f534bf6955ea46e7f18be344ac667","_LINK":"EL-108_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-115_f534bf6955ea46e7f18be344ac667","_LINK":"EL-115_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-134_f534bf6955ea46e7f18be344ac667","_LINK":"EL-134_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-135_f534bf6955ea46e7f18be344ac667","_LINK":"EL-135_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-132_f534bf6955ea46e7f18be344ac667","_LINK":"EL-132_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-133_f534bf6955ea46e7f18be344ac667","_LINK":"EL-133_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-122_f534bf6955ea46e7f18be344ac667","_LINK":"EL-122_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-109_f534bf6955ea46e7f18be344ac667","_LINK":"EL-109_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-127","_LINK":"EL-127" },
+
+  {"UID":"EL-141","_LINK":"EL-141" },
+
+  {"_LINK":"d4e92a536a6b4f988969b745cbbb61ff" },
+
+  {"UID":"EL-202_f534bf6955ea46e7f18be344ac667","_LINK":"EL-202_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-143_f534bf6955ea46e7f18be344ac667","_LINK":"EL-143_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-142_f534bf6955ea46e7f18be344ac667","_LINK":"EL-142_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-8","_LINK":"EL-8" },
+
+  {"UID":"EL-9","_LINK":"EL-9" },
+
+  {"_LINK":"eb7b7c1c96bc4a0bae398e8e03cd5416" },
+
+  {"UID":"EL-69_f534bf6955ea46e7f18be344ac667","_LINK":"EL-69_f534bf6955ea46e7f18be344ac667" },
+
+  {"UID":"EL-10","_LINK":"EL-10" },
+
+  {"_LINK":"7d073588c4fc408394ec65997477f034" },
+
+  {"UID":"EL-11","_LINK":"EL-11" },
+
+  {"_LINK":"fafa4f1a3bca4b43b6c12a13d49cba9d" },
+
+  {"UID":"EL-12","_LINK":"EL-12" },
+
+  {"_LINK":"8db72256a4514f7bbec1d30d09bb9907" },
+
+  {"UID":"EL-13","_LINK":"EL-13" },
+
+  {"_LINK":"5c6bc545f0284f76b678c488ca20f4b4" },
+
+  {"UID":"EL-128","_LINK":"EL-128" },
+
+  {"_LINK":"c047bd6011a94c8f9f46c54b0cb4f1b3" },
+
+  {"UID":"EL-15","_LINK":"EL-15" },
+
+  {"_LINK":"7ae91289365a425fbc361ec61a08fe9e" }, ],
+ "input/1.html": [
+
+
+  {"UID":"532dae219592ec939c858df6868d53b6","_LINK":"532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-183","_LINK":"EL-183" },
+
+  {"UID":"EL-184","_LINK":"EL-184" },
+
+  {"_LINK":"14cc35143b644cf7be83347c7e7a7f28" },
+
+  {"UID":"EL-185","_LINK":"EL-185" },
+
+  {"_LINK":"a3fd6d7a210e48ad933318dbc2f782be" },
+
+  {"UID":"EL-144","_LINK":"EL-144" },
+
+  {"UID":"EL-145","_LINK":"EL-145" },
+
+  {"UID":"EL-147_532dae219592ec939c858df6868d53b6","_LINK":"EL-147_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-149_532dae219592ec939c858df6868d53b6","_LINK":"EL-149_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-148_532dae219592ec939c858df6868d53b6","_LINK":"EL-148_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-150_532dae219592ec939c858df6868d53b6","_LINK":"EL-150_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-101_532dae219592ec939c858df6868d53b6","_LINK":"EL-101_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-146_532dae219592ec939c858df6868d53b6","_LINK":"EL-146_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-152_532dae219592ec939c858df6868d53b6","_LINK":"EL-152_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-151_532dae219592ec939c858df6868d53b6","_LINK":"EL-151_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-153","_LINK":"EL-153" },
+
+  {"UID":"EL-156_532dae219592ec939c858df6868d53b6","_LINK":"EL-156_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-157_532dae219592ec939c858df6868d53b6","_LINK":"EL-157_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-158","_LINK":"EL-158" },
+
+  {"UID":"EL-159_532dae219592ec939c858df6868d53b6","_LINK":"EL-159_532dae219592ec939c858df6868d53b6" },
+
+  {"UID":"EL-155","_LINK":"EL-155" },
+
+  {"UID":"EL-160_532dae219592ec939c858df6868d53b6","_LINK":"EL-160_532dae219592ec939c858df6868d53b6" }, ],
+};
