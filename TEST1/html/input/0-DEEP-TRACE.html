@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="keywords" content="strictdoc, documentation, documentation-tool, requirements-management, requirements, documentation-generator, requirement-specifications, requirements-engineering, technical-documentation, requirements-specification"/>
+  <meta name="description" content="strictdoc. Software for technical documentation and requirements management."/>
+  <meta name="strictdoc-export-type" content="static">
+  <meta name="strictdoc-document-level" content="1">
+
+  <link rel="shortcut icon" href="../_static/favicon.ico" type="image/x-icon"/>
+
+  
+  
+  <link rel="stylesheet" href="../_static/base.css"/>
+  <link rel="stylesheet" href="../_static/layout.css"/>
+  <link rel="stylesheet" href="../_static/content.css"/>
+  <link rel="stylesheet" href="../_static/node.css"/>
+  <link rel="stylesheet" href="../_static/node_content.css"/>
+  <link rel="stylesheet" href="../_static/element.css"/>
+  <link rel="stylesheet" href="../_static/form.css"/>
+  <link rel="stylesheet" href="../_static/requirement__temporary.css"/>
+  <link rel="stylesheet" href="../_static/autogen.css"/>
+  <link rel="stylesheet" href="../_static/pygments.css"/>
+  
+  <link rel="stylesheet" href="../_static/requirement-tree.css"/>
+
+
+  
+  <script src="../_static/stimulus_umd.min.js"></script>
+  <script>
+    Stimulus.application = Stimulus.Application.start();
+  </script>
+  
+  <script src="../_static/app_core.js"></script>
+
+  <script src="../_static/dropdown_menu.js"></script>
+  <script src="../_static/resizable_bar.js"></script>
+  <script src="../_static/collapsible_toc.js"></script>
+  <script src="../_static/project_tree_preserve_scroll.js"></script>
+  <script src="../_static/toc_highlighting.js"></script>
+  <script src="../_static/zoomable.js"></script>
+  
+  
+  
+
+
+  <title>Administration Specification - Deep Traceability</title>
+
+  
+</head>
+
+<body data-viewtype="deep_traceability" data-turbo="false">
+
+<div class="mars">
+  
+</div>
+
+  <div class="layout" id="layout">
+
+    <nav class="layout_nav">
+      
+  <div class="nav">
+
+
+
+  <a
+    data-link="index"
+    class="nav_button"
+    href="../index.html"
+    title="Project index">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <line x1="9" y1="4" x2="7" y2="4"></line>
+  <line x1="12" y1="9" x2="12" y2="7"></line>
+  <line x1="6" y1="10" x2="10" y2="6"></line>
+  <circle cx="4" cy="12" r="2.25"></circle>
+  <circle cx="12" cy="4" r="2.25"></circle>
+  <circle cx="4" cy="4" r="2.25"></circle>
+  <circle cx="12" cy="12" r="2.25"></circle>
+</svg>
+  </a></div>
+
+    </nav>
+
+    <aside class="layout_tree">
+      
+  
+
+
+
+<div
+  js-resizable_bar="tree"
+  data-state="open"
+  data-position="left"
+>
+
+<div class="project_tree_with_ad">
+  <turbo-frame id="frame_aside_project_tree">
+  <div
+    class="tree"
+    js-project_tree_preserve_scroll="tree"
+    data-project-title="Untitled Project"
+    data-testid="aside-project-tree"
+  >
+    
+        
+          <div
+            class="tree_folder"
+            data-level="0"
+            data-testid="tree-folder-item"
+          >
+          <span class="tree_folder_path">/</span>
+          </div>
+        
+      
+        
+        <a
+          href="../input/0-DEEP-TRACE.html"
+          class="tree_item"
+          
+          active="true"
+          
+          data-folder="input"
+          data-testid="tree-document-link"
+        >
+          <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+          <div
+            class="document_title"
+            title="Administration Specification"
+            data-file_name="0.sdoc"
+          >Administration Specification</div>
+        </a>
+        
+        
+        
+        
+      </div>
+</turbo-frame>
+  
+  <div id="ethical-ad-placement"></div>
+</div>
+</div>
+
+    </aside><aside
+        data-position="right"
+        class="layout_toc"
+      >
+        
+  
+
+
+
+<div
+  js-resizable_bar="toc"
+  data-state="open"
+  data-position="right"
+>
+<turbo-frame
+  id="frame-toc"
+  style="display: contents"
+>
+      <ul
+      data-testid="toc-list"
+      js-collapsible_list="list"
+      class="toc"
+      id="toc"
+      data-controller="draggable_list"><li data-nodeid="040824b3ec504514b84bc7090dc43dbe">
+        <a
+          href="#EL-161"
+          anchor="EL-161"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            1
+          </span>Introduction
+            </a><ul><li data-nodeid="a621210cfc1d4dc69d9da071dfd15967">
+        <a
+          href="#EL-187"
+          anchor="EL-187"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            1.1
+          </span>Purpose
+            </a></li><li data-nodeid="1cd6c30ab8944bbcb49e236393c67c79">
+        <a
+          href="#EL-186"
+          anchor="EL-186"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            1.2
+          </span>References
+            </a></li></ul>
+            </li><li data-nodeid="44bfe39bdddf43aeaa1a6840d5e07aa2">
+        <a
+          href="#EL-162"
+          anchor="EL-162"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            2
+          </span>Requirements
+            </a><ul><li data-nodeid="dc9842069a204ab49d3b2625d7be05d0">
+        <a
+          href="#EL-163"
+          anchor="EL-163"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            2.1
+          </span>User Roles
+            </a><ul><li data-nodeid="6fe07cfd73d0406ba5a0976e0054bf2e">
+        <a
+          href="#EL-165"
+          anchor="EL-165"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            2.1.1
+          </span>By default there are two roles:
+            </a></li><li data-nodeid="ac59d63569aa4e74886185e7c049fb14">
+        <a
+          href="#EL-166"
+          anchor="EL-166"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            2.1.2
+          </span>User role id conditions:
+            </a></li><li data-nodeid="369c0ce531dc458aab02fb396c95c569">
+        <a
+          href="#EL-164"
+          anchor="EL-164"
+          data-turbo="false"
+        >
+          <span class="section-number">
+            2.1.3
+          </span>User can be assigned into multiple user roles
+            </a></li></ul>
+            </li></ul>
+            </li></ul>
+</turbo-frame>
+</div>
+
+      </aside><header class="layout_header">
+      <div class="header">
+
+  
+  <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <polyline points="14 5 14 10.5 8 15 2 10.5 2 5 8 1 14 5 8 9.5"></polyline>
+  <polyline points="2.5 5.5 8 9.5 8 15"></polyline>
+</svg>
+  <div
+    class="header__project_name"
+    title="Untitled Project"
+  >Untitled Project
+  </div>
+
+  
+      <svg
+  class="svg_icon"
+  viewBox="0 0 20 20"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  >
+  <path d="M12.5 4.5l-5 11"></path>
+</svg>
+      <turbo-frame id="header_document_title">
+  <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d=" M13,13 L13,8 C13,7.5 12.6,7 12,7 L9,7 C8.5,7 8,6.5 8,6 L8,3 C8,2.5 7.5,2 7,2 L4,2 C3.5,2 3,2.5 3,3 L3,13 C3,13.5 3.5,14 4,14 L12,14 C12.6,14 13,13.5 13,13 Z M13,9 L13,8 C13,7.5 13,7 12.5,6.5 L8.5,2.5 C8,2 7.5,2 7,2 L6,2"></path>
+</svg>
+  <div
+    class="header__document_title"
+    title="Administration Specification"
+  >
+    Administration Specification
+  </div>
+</turbo-frame>
+    
+      <svg
+  class="svg_icon"
+  viewBox="0 0 20 20"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  >
+  <path d="M12.5 4.5l-5 11"></path>
+</svg>
+      <div class="viewtype">
+  <div
+    id="viewtype_handler"
+    class="viewtype__handler"
+    data-dropdown-handler
+    aria-expanded="false"
+    aria-controls="viewtype_menu"
+  >
+    <span>Deep Traceability</span>
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 10l3 3 3-3M5 6l3-3 3 3"></path>
+</svg>
+  </div>
+  <menu
+    id="viewtype_menu"
+    class="dropdown_menu"
+    aria-hidden="true"
+    aria-labelledby="viewtype_handler"
+  >
+    <li class="dropdown_menu_header">VIEWS</li>
+    <li>
+      <a
+        data-viewtype_link="document"
+        class="dropdown_menu_item"
+        title="Go to Document view"
+        href="../input/0.html#None-Administration-Specification">
+      Document</a>
+    </li><li>
+      <a
+        data-viewtype_link="table"
+        class="dropdown_menu_item"
+        title="Go to Table view"
+        href="../input/0-TABLE.html#None-Administration-Specification">
+      Table</a>
+    </li><li>
+      <a
+        data-viewtype_link="traceability"
+        class="dropdown_menu_item"
+        title="Go to Traceability view"
+        href="../input/0-TRACE.html#None-Administration-Specification">
+      Traceability</a>
+    </li><li>
+      <a
+        data-viewtype_link="deep_traceability"
+        class="dropdown_menu_item"
+        title="Go to Deep Traceability view"
+        href="../input/0-DEEP-TRACE.html#None-Administration-Specification">
+      Deep Traceability</a>
+    </li></menu>
+</div>
+    
+  <div class="header__placeholder" data-testid="header-placeholder" id="header-placeholder"></div>
+
+  </div>
+    </header>
+
+    <main class="layout_main">
+      
+  <div
+    class="main"
+    js-pan_with_space="true"
+  >
+    
+<div class="tags">
+</div>
+    <div class="content">
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-161"
+  data-anchor="EL-161"
+  node-role="requirement"
+  data-uid="EL-161"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-161</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="1"
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="1"
+  >
+    <h2>
+
+<sdoc-autogen>1.&nbsp;Introduction</sdoc-autogen></h2>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-161</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-187"
+  data-anchor="EL-187"
+  node-role="requirement"
+  data-uid="EL-187"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-187</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="1.1"
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="1.1"
+  >
+    <h3>
+
+<sdoc-autogen>1.1.&nbsp;Purpose</sdoc-autogen></h3>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-187</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-186"
+  data-anchor="EL-186"
+  node-role="requirement"
+  data-uid="EL-186"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-186</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="1.2"
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="1.2"
+  >
+    <h3>
+
+<sdoc-autogen>1.2.&nbsp;References</sdoc-autogen></h3>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-186</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-162"
+  data-anchor="EL-162"
+  node-role="requirement"
+  data-uid="EL-162"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-162</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="2"
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="2"
+  >
+    <h2>
+
+<sdoc-autogen>2.&nbsp;Requirements</sdoc-autogen></h2>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-162</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-163"
+  data-anchor="EL-163"
+  node-role="requirement"
+  data-uid="EL-163"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-163</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="2.1"
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="2.1"
+  >
+    <h3>
+
+<sdoc-autogen>2.1.&nbsp;User Roles</sdoc-autogen></h3>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-163</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-165"
+  data-anchor="EL-165"
+  node-role="requirement"
+  data-uid="EL-165"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-165</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="2.1.1"
+    data-status='reviewed'
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="2.1.1"
+  >
+    
+
+<sdoc-autogen>2.1.1.&nbsp;By default there are two roles:</sdoc-autogen>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-165</sdoc-autogen></sdoc-node-uid>
+  
+    <sdoc-node-field data-field-label="statement">
+      <sdoc-autogen><div class="document">
+<ul class="simple">
+<li>administrator</li>
+<li>user</li>
+</ul>
+</div>
+</sdoc-autogen>
+    </sdoc-node-field>
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-166"
+  data-anchor="EL-166"
+  node-role="requirement"
+  data-uid="EL-166"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-166</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="2.1.2"
+    data-status='reviewed'
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="2.1.2"
+  >
+    
+
+<sdoc-autogen>2.1.2.&nbsp;User role id conditions:</sdoc-autogen>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-166</sdoc-autogen></sdoc-node-uid>
+  
+    <sdoc-node-field data-field-label="statement">
+      <sdoc-autogen><div class="document">
+<ul class="simple">
+<li>may not contain spaces</li>
+<li>may not contain non-ASCII characters</li>
+</ul>
+</div>
+</sdoc-autogen>
+    </sdoc-node-field>
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section>
+          <section class="content_section">
+            <div class="content_item" data-role="parents">
+</div>
+            <div class="content_item" data-role="current">
+
+  <sdoc-node
+    node-style="card"
+    node-role="requirement"
+    data-testid="node-requirement"
+  >
+
+    
+    <sdoc-anchor
+  id="EL-164"
+  data-anchor="EL-164"
+  node-role="requirement"
+  data-uid="EL-164"
+  
+  
+>
+  
+  <div class="anchor_block" data-testid="anchor_hover_button">
+    
+      
+<div class="anchor_button" title="Click to copy" data-testid="section-anchor-button">
+  <span class="anchor_base_icon" style="line-height: 0.1;">
+    <span class="svg_icon_not_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="8" cy="3" r="1"></circle>
+  <line x1="8" y1="4" x2="8" y2="14.5"></line>
+  <path d="M5.5,6 C5.5,6 7,6 10.5,6 C10.5,6 5.5,6 5.5,6 Z"/>
+  <path d="M2,11 C3,10 3.5,9.5 3.5,9.5 C3.5,12 5,13 8,13 C11,13 12.5,12 12.5,9.5 C12.5,9.5 13,10 14,11"/>
+</svg></span>
+    <span class="svg_icon_hover_visible"><svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8,2 L12,2 C13,2 14,3 14,4 L14,8 C14,9 13,10 12,10 L8,10 C7,10 6,9 6,8 L6,4 C6,3 7,2 8,2 Z"/>
+  <path d="M10,12 C10,13 9,14 8,14 L4,14 C3,14 2,13 2,12 L2,8 C2,7 3,6 4,6"/>
+</svg></span>
+  </span>
+  <span class="anchor_check_icon" style="line-height: 0.1; display: none;">
+    <svg
+  class="svg_icon"
+  viewBox="0 0 16 16"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2.5,8.5 C2.5,8.5 3.5,9.5 6,12 C11,7 13.5,4.5 13.5,4.5" />
+</svg>
+  </span>
+  <span class="anchor_button_text">EL-164</span>
+</div>
+    </div></sdoc-anchor>
+
+    
+    
+
+
+<sdoc-node-content
+  node-view="simple"
+  data-level="2.1.3"
+    data-status='reviewed'
+  data-testid="requirement-style-simple"
+>
+  
+  
+  
+  <sdoc-node-title
+    data-level="2.1.3"
+  >
+    
+
+<sdoc-autogen>2.1.3.&nbsp;User can be assigned into multiple user roles</sdoc-autogen>
+  </sdoc-node-title>
+
+
+  
+  <sdoc-node-uid>
+
+<sdoc-autogen>EL-164</sdoc-autogen></sdoc-node-uid>
+  
+</sdoc-node-content>
+
+
+    </sdoc-node></div>
+            <div class="content_item" data-role="children">
+</div>
+          </section></div> 
+  </div> 
+
+    </main>
+
+    <footer class="layout_footer">
+      <div class="footer">
+        Built with
+        <a
+          class="strictdoc__link"
+          href="https://github.com/strictdoc-project/strictdoc"
+          target="_blank"
+        >StrictDoc</a>
+        <a
+          class="strictdoc__version"
+          href="https://github.com/strictdoc-project/strictdoc/releases/tag/0.21.0"
+          target="_blank"
+        >
+          <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" >
+            <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
+          </svg>
+          0.21.0
+        </a>
+      </div>
+    </footer>
+
+    <aside class="layout_aside">
+      
+    </aside>
+
+  </div>
+  
+  <div id="modal"></div>
+  <div id="confirm"></div>
+  
+
+</body>
+</html>
